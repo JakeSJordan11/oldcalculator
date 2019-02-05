@@ -10,7 +10,7 @@ class CalcButton extends React.Component<CalcButtonProps, CalcButtonState> {
   render() {
     return (
       <Paper style={{ width: "100%" }}>
-        <Typography variant="h1" style={{ textAlign: "end", paddingRight: 16 }}>
+        <Typography variant="h1" style={{ textAlign: "end", paddingRight: 10 }}>
           {this.props.children}
         </Typography>
       </Paper>
