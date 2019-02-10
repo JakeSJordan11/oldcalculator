@@ -25,7 +25,7 @@ class App extends React.Component<AppProps, AppState> {
   render() {
     return (
       <Grid container justify="center">
-        <Paper style={{ padding: 16, margin: 16, backgroundColor: "#eeeeee" }}>
+        <Paper style={{ padding: 16, margin: 16, backgroundColor: "#005f5f" }}>
           <Grid container spacing={16}>
             <Grid item xs>
               <CalcInput>{this.state.input}</CalcInput>

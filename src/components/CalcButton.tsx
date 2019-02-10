@@ -15,12 +15,20 @@ export interface CalcButtonState {
 class CalcButton extends React.Component<CalcButtonProps, CalcButtonState> {
   render() {
     return (
-      <Paper style={{ width: "100%", height: "100%" }}>
+      <Paper
+        style={{
+          width: "100%",
+          height: "100%",
+          backgroundColor: "#1f2f3f"
+        }}
+      >
         <Button
           onClick={this.props.onClick(this.props.children)}
           style={{ width: "100%", height: "100%" }}
         >
-          <Typography variant="h5">{this.props.children}</Typography>
+          <Typography variant="h5" style={{ color: "#eeeeee" }}>
+            {this.props.children}
+          </Typography>
         </Button>
       </Paper>
     );
